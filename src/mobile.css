@@ -1,0 +1,174 @@
+.hamburger {
+    padding: 0 !important;
+}
+
+.hamburger .hamburger-inner,
+.hamburger .hamburger-inner:after,
+.hamburger .hamburger-inner:before {
+    background-color: #fff;
+    border-radius: 0;
+    width: 25px;
+    height: 2px;
+}
+
+.hamburger .hamburger-inner:before {
+    top: -6px
+}
+
+.hamburger .hamburger-inner:after {
+    bottom: -6px;
+}
+
+@media screen and (min-width: 992px) {
+    .hamburger {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #navbar .navbar-nav {
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    #content .card.circles {
+        max-width: 100%;
+    }
+
+    #content .card.circles .col {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #contribution-categories .text {
+        bottom: 0;
+        top: auto;
+    }
+
+    #task-requests .card {
+        margin: 0 auto;
+    }
+
+    .two-columns {
+        column-count: 1;
+    }
+
+    #footer .social-icons a {
+        margin-left: 2px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #content .lead {
+        text-align: justify;
+    }
+
+    #content .lead,
+    #content h4 {
+        line-height: 2rem;
+        font-size: 1.1rem;
+    }
+
+    #projects #projects-container .slick-arrow {
+        width: 10%;
+    }
+
+    #octocat {
+        max-width: 150px !important;
+        margin-bottom: 20px;
+    }
+
+    .octocat-text:after {
+        display: none;
+    }
+
+    .octocat-text:after {
+        display: none;
+    }
+
+    .octocat-text:before {
+        display: none
+    }
+    
+    #footer .footer-logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #footer .social-icons {
+        text-align: center;
+        margin-top: 20px !important;
+    }
+
+    #footer .social-icons > div {
+        text-align: center;
+        margin: 0 auto !important;
+    }
+
+    #footer .social-icons a {
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #header h1 {
+        font-size: 2.5rem;
+    }
+
+    #header h2 {
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+
+    #header div .btn-lg:first-child {
+        margin-right: .5rem !important;
+    }
+
+    #header div .btn-lg:last-child {
+        margin-left: .5rem !important;
+    }
+
+    #content h2,
+    #content h3 {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    #content .blue-icon {
+        margin: 0 auto;
+    }
+
+    #projects #projects-container .slick-list {
+        padding: 25px 50px !important;
+    }
+
+    #projects #contributions-container .slick-dots {
+        top: -15px;
+    }
+
+    #projects #contributions-container .slick-dots li {
+        width: 15px;
+    }
+
+    #projects #contributions-container .slick-list {
+        padding: 25px 50px 0 !important;
+    }
+
+    .tooltip {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #header div .btn-lg:first-child,
+    #header div .btn-lg:last-child {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 10px !important;
+        display: block;
+    }
+
+    #projects #contributions-container .slick-list .contribution .contribution-inner .stats {
+        font-size: .7rem;
+    }
+}

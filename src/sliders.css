@@ -1,0 +1,333 @@
+.slick-dots li.slick-active button:before {
+    color: #4b7dc0;
+    opacity: 1;
+    transform: scale(2);
+    transition: transform 0.3s ease;
+}
+
+#projects #projects-container .slick-list {
+    padding: 50px 50px !important;
+}
+
+#projects #projects-container .slick-list .slick-track .project {
+    margin: 35px 0;
+    border-radius: .25rem;
+    position: relative;
+    display: block;
+    padding: 10px;
+    z-index: 5;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #fff;
+    outline: none;
+}
+
+#projects #projects-container .slick-list .slick-track .project .cover-image {
+    width: 100%;
+}
+
+#projects #projects-container .slick-list .slick-track .project h4 {
+    font-size: 1.3rem;
+    color: #444;
+    margin-top: 15px;
+}
+
+#projects #projects-container .slick-list .slick-track .project p {
+    font-size: 1rem;
+    color: #aaa;
+    margin: 0;
+}
+
+#projects #projects-container .slick-list .slick-track .project .btn {
+    display: block;
+    margin: 10px 0 0;
+}
+
+#projects #projects-container .slick-list .slick-track .project .contributions .contribution {
+    margin-bottom: 10px;
+}
+
+#projects #projects-container .slick-list .slick-track .project .contributions .contribution .profile-image {
+    float: left;
+    margin-right: 10px;
+}
+
+#projects #projects-container .slick-list .slick-track .project .contributions .contribution .profile-image img {
+    border-radius: 50%;
+    border: solid 1px #ddd;
+}
+
+#projects #projects-container .slick-list .slick-track .project .contributions .contribution .title {
+    color: #444;
+    display: block;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#projects #projects-container .slick-list .slick-track .project .contributions .contribution .meta {
+    display: block;
+    font-size: 0.7rem;
+    color: #aaa !important;
+}
+
+#projects #projects-container .slick-list .slick-track .project.slick-current {
+    z-index: 6;
+    transform: scale(1.15);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+#projects #projects-container .slick-arrow {
+    height: 100%;
+    width: 25%;
+    z-index: 10;
+}
+
+#projects #projects-container .slick-arrow:before {
+    color: #888;
+    opacity: .1;
+    font-size: 2.5rem;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    top: 50%;
+}
+
+#projects #projects-container .slick-arrow:hover:before {
+    opacity: 1;
+}
+
+#projects #projects-container .slick-arrow.slick-prev {
+    background: url('../img/gradient-left.png') repeat-y;
+    background-size: 100%;
+    left: 0;
+}
+
+#projects #projects-container .slick-arrow.slick-prev:before {
+    left: 5px;
+    content: "←";
+}
+
+#projects #projects-container .slick-arrow.slick-next {
+    background: url('../img/gradient-right.png') repeat-y;
+    background-size: 100%;
+    right: 0;
+}
+
+#projects #projects-container .slick-arrow.slick-next:before {
+    right: 5px;
+    content: "→";
+}
+
+#projects #projects-container:hover .slick-arrow:before {
+    opacity: 0.3;
+}
+
+#projects #projects-container-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: none;
+    z-index: 999;
+}
+
+#projects #contributions-spinner {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
+
+#projects #contributions-container {
+    position: relative;
+    z-index: 50;
+}
+
+#projects #contributions-container .slick-list {
+    padding: 50px 50px 0 !important;
+}
+
+#projects #contributions-container .slick-list .contribution {
+    position: relative;
+    margin: 10px;
+    outline: none;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner {
+    border-radius: 4px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 10px;
+    color: #fff;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category svg {
+    width: 16px;
+    fill: #fff;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category.ideas, #projects #contributions-container .slick-list .contribution .contribution-inner .category.task-ideas {
+    background: #54d2a0;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category.blog, #projects #contributions-container .slick-list .contribution .contribution-inner .category.task-blog {
+    background: #0275d8;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category.development, #projects #contributions-container .slick-list .contribution .contribution-inner .category.task-development {
+    background: #000;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category.bug-hunting, #projects #contributions-container .slick-list .contribution .contribution-inner .category.task-bug-hunting {
+    background: #d9534f;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category.translations, #projects #contributions-container .slick-list .contribution .contribution-inner .category.task-translations {
+    background: #ffce3d;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category.graphics, #projects #contributions-container .slick-list .contribution .contribution-inner .category.task-graphics {
+    background: #F6A623;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category.analysis, #projects #contributions-container .slick-list .contribution .contribution-inner .category.task-analysis {
+    background: #164265;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category.social, #projects #contributions-container .slick-list .contribution .contribution-inner .category.task-social {
+    background: #7ec2f3;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category.documentation, #projects #contributions-container .slick-list .contribution .contribution-inner .category.task-documentation {
+    background: #a0a0a0;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category.tutorials, #projects #contributions-container .slick-list .contribution .contribution-inner .category.task-tutorials {
+    background: #782C51;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category.video-tutorials, #projects #contributions-container .slick-list .contribution .contribution-inner .category.task-video-tutorials {
+    background: #EC3324;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .category.copywriting, #projects #contributions-container .slick-list .contribution .contribution-inner .category.task-copywriting {
+    background: #008080;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .user {
+    padding: 10px;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .user .profile-image {
+    border-radius: 50%;
+    margin-right: 5px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center center;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .user .username {
+    color: #4b7dc0;
+    margin-right: 5px;
+    float: left;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .user .reputation {
+    margin-right: 5px;
+    margin-top: 2px;
+    float: left;
+    font-size: 0.8rem;
+    background: #eee;
+    border-radius: 4px;
+    padding: 0 5px;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .user .date {
+    margin-right: 5px;
+    margin-top: 2px;
+    float: left;
+    color: #ccc;
+    font-size: 0.8rem;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .title {
+    padding: 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .title a {
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .title a:hover {
+    color: #4b7dc0;
+}
+
+#projects #contributions-container .slick-list .contribution .contribution-inner .stats {
+    padding: 10px;
+    color: #99aab5;
+    font-weight: bold;
+}
+
+#projects #contributions-container .slick-arrow {
+    height: 100%;
+    width: 25%;
+    z-index: 10;
+}
+
+#projects #contributions-container .slick-arrow:before {
+    color: #888;
+    opacity: .1;
+    font-size: 2.5rem;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    top: 55%;
+}
+
+#projects #contributions-container .slick-arrow:hover:before {
+    opacity: 1;
+}
+
+#projects #contributions-container .slick-arrow.slick-prev {
+    background-image: -webkit-linear-gradient(left, #fafbfc 0%, transparent 100%);
+    left: 0;
+}
+
+#projects #contributions-container .slick-arrow.slick-prev:before {
+    left: 5px;
+    content: "←";
+}
+
+#projects #contributions-container .slick-arrow.slick-next {
+    background-image: -webkit-linear-gradient(left, transparent 0%, #fafbfc 100%);
+    right: 0;
+}
+
+#projects #contributions-container .slick-arrow.slick-next:before {
+    right: 5px;
+    content: "→";
+}
+
+#projects #contributions-container .slick-dots {
+    bottom: auto;
+    top: 10px;
+}
+
+#projects #contributions-container:hover .slick-arrow:before {
+    opacity: 0.3;
+}
