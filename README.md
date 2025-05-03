@@ -3,7 +3,7 @@ A community promoting Antipolo City as a place for recreational, cultural and sp
 Its like Busy and also a Blockchain-based social network where anyone can earn rewards but its more focus on rewarding the circles of community member.
 
 ## Contribution 
-Steemit Antipolo is currently Looking for support specially in development, The Roadmap is already available if you want to work in this project voluntarily we can talk about the process on discord heres the [LINK](https://discord.gg/H8nPgbf).
+Steemit Antipolo is currently looking for support specially in development, The Roadmap is already available if you want to work in this project voluntarily we can talk about the process on discord heres the [LINK](https://discord.gg/H8nPgbf).
 
 ## Mockups - Preview
 - section 1
