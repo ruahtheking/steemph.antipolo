@@ -9,7 +9,7 @@ Steemit Antipolo is currently looking for support specially in development, The 
 - section 01
 ![](https://media.discordapp.net/attachments/363283949117505537/439416235411898369/section1.png)
 
-- section 2
+- section 02
 ![](https://media.discordapp.net/attachments/363283949117505537/439415283401097226/section1.png)
 
 - section 3
